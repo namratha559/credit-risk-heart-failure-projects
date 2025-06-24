@@ -1,64 +1,88 @@
-# 💼 Credit Risk EDA & ❤️ Heart Failure Mortality Prediction
+# 💼 Credit Risk Analysis & ❤️ Heart Failure Mortality Prediction
 
-This repository contains two real-world data science projects that apply Exploratory Data Analysis (EDA) and Machine Learning techniques to domains like **finance** and **healthcare**.
-
----
-
-## 📌 Project 1: Credit Risk Exploratory Data Analysis
-
-### 🔍 Objective:
-To explore a credit application dataset and uncover patterns that help predict the likelihood of a customer defaulting on a loan.
-
-### 🧰 Tools & Libraries:
-- Python, Pandas, NumPy
-- Matplotlib, Seaborn, Plotly
-
-### 📊 Key Insights:
-- Around 8% of applicants were defaulters
-- Age group 30–45 had a higher default rate
-- Risk was higher for people with low income and unstable jobs
+This repository contains two data-driven projects focused on applying **Exploratory Data Analysis (EDA)** and **Machine Learning** to solve real-world problems in the **finance** and **healthcare** sectors. Both projects involve hands-on data exploration, visualization, and actionable insights.
 
 ---
 
-## ❤️ Project 2: Predicting Heart Failure Mortality
+## 📊 Project 1: Credit Risk EDA
 
-### 🔍 Objective:
-To predict whether a heart failure patient is at risk of mortality based on clinical attributes.
+### 🧩 Objective:
+To explore customer credit application data and discover patterns that help in understanding **loan default risks**.
 
-### 🧰 Tools & Libraries:
-- Python, Pandas, Scikit-learn
-- Logistic Regression, Random Forest, KNN, SVM
-- Accuracy, Confusion Matrix, Feature Importance
+### 📈 Key Tasks:
+- Cleaned and prepared large tabular data
+- Performed univariate and bivariate analysis
+- Identified patterns based on features like **age**, **income**, **education**, and **occupation**
+- Used plots to visualize default rates across segments
 
-### ✅ Results:
-- Random Forest achieved over 90% accuracy
-- Most influential features: Serum Creatinine, Ejection Fraction, Age
+### 🧠 Key Insights:
+- Around **8% of applicants** were defaulters
+- Highest default risk in **age group 30–45**
+- Customers with **lower income**, **unstable jobs**, and **lower education levels** were more likely to default
+
+### 🔧 Tools:
+Python • Pandas • Seaborn • Matplotlib • Plotly
+
+📁 Notebook: `credit_risk_eda.ipynb`
 
 ---
 
-## 📂 Folder Structure
+## ❤️ Project 2: Heart Failure Mortality Prediction
 
-/credit-risk-heart-failure-projects
-│
-├── credit_risk_eda.ipynb # Notebook for credit risk analysis
-├── heart_failure_prediction.ipynb # Notebook for heart failure ML
-└── README.md # Project overview
+### 🧩 Objective:
+To predict whether a patient with heart failure is likely to **survive or die** based on clinical attributes.
+
+### 📈 Key Tasks:
+- Analyzed patient data for key features like **age**, **serum creatinine**, and **ejection fraction**
+- Applied classification models including:
+  - Logistic Regression
+  - K-Nearest Neighbors
+  - Support Vector Machine
+  - Random Forest
+- Evaluated using metrics like **accuracy**, **confusion matrix**, and **F1-score**
+
+### 🧠 Key Findings:
+- **Random Forest** gave the best results with over **90% accuracy**
+- Top predictors of mortality: **serum creatinine**, **ejection fraction**, and **age**
+
+### 🔧 Tools:
+Python • Pandas • Scikit-learn • Seaborn • Matplotlib
+
+📁 Notebook: `heart_failure_prediction.ipynb`
 
 ---
 
 ## ✨ Skills Demonstrated
-- Data Cleaning and Preprocessing
-- Exploratory Data Analysis
-- Machine Learning Model Building
-- Insight Extraction and Visualization
-- Domain Knowledge (Finance & Healthcare)
+
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis  
+- Data Visualization  
+- Machine Learning & Model Evaluation  
+- Domain Understanding (Finance + Healthcare)
 
 ---
 
-## 🔗 Links
-- [LinkedIn Post Coming Soon](#)
-- [Kaggle Datasets Used](#) (Add actual dataset links if applicable)
+## 📂 Repository Structure
+
+/credit-risk-heart-failure-projects
+│
+├── credit_risk_eda.ipynb
+├── heart_failure_prediction.ipynb
+└── README.md
 
 ---
 
-📣 *Feel free to fork this repository, suggest improvements, or reach out for collaboration!*
+## 📌 Future Work
+- Use XGBoost/LightGBM for improved prediction
+- Build interactive dashboards using Streamlit or Power BI
+
+---
+
+## 🔗 Useful Links
+- [Kaggle Dataset – Credit Risk](#)  
+- [Kaggle Dataset – Heart Failure](#)  
+- [My LinkedIn Profile](#)
+
+---
+
+📣 *Feel free to fork, star ⭐ this repo, or reach out for collaboration!*
