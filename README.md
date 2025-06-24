@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="cover.png" alt="Project Banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-DataScience-blue" />
+  <img src="https://img.shields.io/badge/MachineLearning-RandomForest-green" />
+  <img src="https://img.shields.io/badge/EDA-Visualizations-orange" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
+</p>
 # 💼 Credit Risk Analysis & ❤️ Heart Failure Mortality Prediction
 
 This repository contains two data-driven projects focused on applying **Exploratory Data Analysis (EDA)** and **Machine Learning** to solve real-world problems in the **finance** and **healthcare** sectors. Both projects involve hands-on data exploration, visualization, and actionable insights.
